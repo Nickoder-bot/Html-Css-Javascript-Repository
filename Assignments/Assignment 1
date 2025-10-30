@@ -8,19 +8,23 @@
 
     <body>
     <h1>Where all your pizza needs are met!</h1>
-    <nav>
-        <ul>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#order">order</a></li>
-            <li><a href="#map">location</a></li>
-           
-        </ul>
-    </nav>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+            <nav>
+        <tr>
+                <td><a href="#about">About us</a></li>
+                <td><a href="#order">order</a></li>
+                <td><a href="#map">location</a></li>  
+        </tr>
+            </nav>
+
+    </table>
     </body>
 
     <h2 id="about">About</h2>
 
      <p>
+        <img src="/Assignments/Images/my-work-pictures-from-pizza-planet-late-90s-early-2000s-v0-2ij8fsdlkace1.webp" alt="Our favorite cook at the oven!" width="250" height="250">
         <strong>Pizza Time Pizza<code>&reg;</code></strong> has been proudly serving the Barrie area for over 
         <strong>17 years</strong>! What started as a small family-owned shop has grown into a local favorite, 
         known for our hand-tossed dough, homemade sauces, and generous toppings. We’re all about keeping things 
@@ -91,7 +95,30 @@
 
         <label for="delivery">Delivery</label>
         <input type="radio" id="delivery" name="delivery"><br>
-       
+        
+        <input type="text" placeholder="Address">
+
+
+        <p>Rate us!</p>
+        <label for="rating">1</label>
+        <input type="radio" id="rating" name="rating">
+         
+        <label for="rating">2</label>
+        <input type="radio" id="rating" name="rating">
+
+        <label for="rating">3</label>
+        <input type="radio" id="rating" name="rating">
+
+        <label for="rating">4</label>
+        <input type="radio" id="rating" name="rating">
+
+        <label for="rating">5</label>
+        <input type="radio" id="rating" name="rating"><br>
+
+
+        <textarea row="5" cols="20" placeholder="Leave your comments here!"></textarea>
+        <button type="submit">Submit</button>
+
  <h2 id="map">Find Us</h2>
 <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-79.67129051685333%2C44.409535309809364%2C-79.6649068593979%2C44.412190898590275&amp;layer=mapnik&amp;marker=44.41086311927204%2C-79.66809868812561" style="border: 1px solid black"></iframe>
 
@@ -102,5 +129,7 @@
 
 
 
-
+<footer> <img src="/Assignments/Images/iwon!.gif" alt="Win a free car!" length="250" width="250"> 
+        <img src="/Assignments/Images/wow.gif" alt="" length="250" width="250">
+</footer>
 </html>
