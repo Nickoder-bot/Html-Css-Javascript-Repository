@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Pizza Time Pizza</title>
     <!--Tab icon -->
-    <link rel="icon" href="/Assignments/Images/pizza.png" type="image/x-icon" />
+    <link rel="icon" href="Images/pizza.png" type="image/x-icon" />
     </head>
 
     <body>
@@ -28,7 +28,7 @@
 
         <p>
                 <!-- image of make believe cook -->
-                <img src="/Assignments/Images/my-work-pictures-from-pizza-planet-late-90s-early-2000s-v0-2ij8fsdlkace1.webp" alt="Our favorite cook at the oven!" width="250" height="250"> <br>
+                <img src="Images/my-work-pictures-from-pizza-planet-late-90s-early-2000s-v0-2ij8fsdlkace1.webp" alt="Our favorite cook at the oven!" width="250" height="250"> <br>
 
                 <strong>Pizza Time Pizza<code>&reg;</code></strong> has been proudly serving the Barrie area for over 
                 <strong>17 years</strong>! What started as a small family-owned shop has grown into a local favorite, 
@@ -48,7 +48,7 @@
         <fieldset>
                 <legend>Pizza Quantity</legend>
                 <label for="quantity">Number of Pizzas</label>
-                <input type="number" id="quantity" name="quantity">
+                <input type="number" id="quantity" name="quantity" min="1" max="10">
         </fieldset>
 
 
@@ -174,8 +174,8 @@
 
 </main>
                 <!-- fun little "ads" in gif form I included-->
-        <footer> <img src="/Assignments/Images/iwon!.gif" alt="Win a free car!" height="50" width="150"> 
-                <img src="/Assignments/Images/wow.gif" alt="The best navigator around!" height="50" width="100">
+        <footer> <img src="Images/iwon!.gif" alt="Win a free car!" height="50" width="150"> 
+                <img src="Images/wow.gif" alt="The best navigator around!" height="50" width="100">
         </footer>
  </body>
 
