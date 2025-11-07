@@ -14,17 +14,8 @@
  			<img src="images/html-logo.svg" height="75" width="75" alt="HTML" />
 			<h1>HTML, CSS, and JS Fundamentals</h1>
 			<h2>Building Blocks for Web Developers</h2>
-<!-- STEP 1: Cut the NAV element code below out of this file and onto your clipboard -->
-			<!-- Global site navigation -->
-			<nav>
-				<ul>
-					<li><a href="index.php" title="Go to the Home page">Home</a></li>
-					<li><a href="red.php" title="Learn about red blocks">Red Blocks</a></li>
-					<li><a href="blue.php" title="Learn about blue blocks">Blue Blocks</a></li>
-					<li><a href="yellow.php" title="Learn about yellow blocks">Yellow Blocks</a></li>
-					<li><a href="about.php" title="Learn more about us">About</a></li>
-				</ul>
-			</nav>
+<!-- STEP 1: Cut the NAV element code below out of this file and onto your clipboard |check|-->
+			
 <!-- STEP 2: Open the file 'global-nav.php' inside the new folder called 'includes' and look for STEP 3 -->
 <!-- STEP 6: Add some PHP delimiters so that we can do some programming that will run on the server just below this comment -->
 
