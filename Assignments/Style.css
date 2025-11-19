@@ -1,1 +1,43 @@
 
+h1
+{
+    font-size: 60px;
+    background: linear-gradient(90deg, #b82300, #ff4d00,#ff9a00);
+    -webbkit-background-clip: text;
+    background-clip: text;
+    font-family: orbitron, sans-serif;
+    text-align: center;
+    margin: 0;
+    color: transparent
+   
+}
+
+h2
+{
+    font-size: 45px;
+     background: linear-gradient(90deg, #b82300, #ff4d00, #ff9a00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: audiowide, sans-serif;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    margin: 0;
+
+   
+}
+blockquote
+{
+    font-size: 65px;
+    text-align: center;
+    color: #ff4d00;
+}
+
+.Actors
+{
+    color: #ff4d00;
+    text-align:center;
+    font-size:45px;
+    font-family: audiowide, sans-serif;
+}
