@@ -1,4 +1,5 @@
 
+
 h1
 {
     font-size: 60px;
@@ -22,37 +23,39 @@ h2
     font-family: audiowide, sans-serif;
     text-align: center;
     position: relative;
-    left: 300px;
+   
     margin: 0;
 
    
 }
+
+body {
+  content: "";
+  display: block;
+  height: 1600px;
+
+  background:
+    linear-gradient(to right, black, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, black),
+    url("/Assignments/Images/Back_to_the_Future_Part_II_Textless_Poster.webp") center/cover no-repeat;
+}
+
 blockquote
 {
     font-size: 65px;
     text-align: center;
     color: #ff4d00;
-}
-blockquote:last-of-type::after {
-  content: "";
-  display: block;
-  height: 200px;  /* choose your height */
-  margin: 1.5rem 0;
-  background:
-    linear-gradient(to right, black, transparent 20%, transparent 80%, black),
-    url("your-image.jpg") center/cover no-repeat;
+    font-family: audiowide, sans-serif;
 }
 
 
-blockquote + .Actors{
-  margin-top: 40rem;
-}
+
+
 
 
 .Actors
 {
     color: #ff4d00;
     text-align:center;
-    font-size:45px;
+    font-size:35px;
     font-family: audiowide, sans-serif;
 }
