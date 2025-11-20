@@ -33,6 +33,21 @@ blockquote
     text-align: center;
     color: #ff4d00;
 }
+blockquote:last-of-type::after {
+  content: "";
+  display: block;
+  height: 200px;  /* choose your height */
+  margin: 1.5rem 0;
+  background:
+    linear-gradient(to right, black, transparent 20%, transparent 80%, black),
+    url("your-image.jpg") center/cover no-repeat;
+}
+
+
+blockquote + .Actors{
+  margin-top: 40rem;
+}
+
 
 .Actors
 {
