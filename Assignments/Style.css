@@ -1,7 +1,7 @@
 body 
 {
     margin: 0;
-    font-family: 'Bungee', sans-serif;
+    
     color: white;
     overflow-x: hidden;
 
@@ -20,6 +20,10 @@ body
     position: relative; 
 }
 
+.Others
+{
+    font-family: 'SteelTongs';
+}
 
 
 @font-face 
@@ -49,7 +53,10 @@ body
     top: 30%;               
     transform: translateY(-50%); 
 }
-
+.MainGuys
+{
+    text-align: right;
+}
 
 .attentionDraw
  {
@@ -57,41 +64,36 @@ body
     text-align: center;   
     color: rgb(4, 161, 189);
     font-weight: 700;
-    text-transform: uppercase;
     font-size: 24px;
     margin-bottom: 20px; 
     line-height: 20%;
     font-family: 'Bungee', sans-serif;
     text-shadow: 20px 20px 10px rgba(0,0,0,0.8);
-    transform: translateY(-50%) translateX(12%);
+    transform: translateY(-50%) translateX(-3mm);
     
  }
 .attentionDraw .Tagline
 {
     line-height:2cm;
     font-size:  24px;
-    color: yellow;
-    transform:translateX(-15%) translateY(50%);
+    color: rgb(168, 168, 11);
+    transform:translateX(-1%) translateY(50%);
+    font-family: 'playfair display',sans-serif;
+
  
 }
 
 
 
-.mainTitle
-{
-    text-align: center;  
-    
-}
+
 
 .mainTitle h1 
 {
+    text-align: center;  
     margin: 0;
     padding: 0;
     font-size: 80px;
     line-height: 1;
-    background: linear-gradient(90deg, #b82300, #ff4d00, #ff9a00);
-    -webkit-background-clip: text;
-    background-clip: text;
     color: rgb(255, 81, 0);
     font-family: 'BTTF', sans-serif;
     text-shadow: 20px 20px 10px rgba(0,0,0,0.8);
@@ -113,34 +115,21 @@ body
 }
 
 
-main blockquote 
-{
-    text-align: center;
-    font-size: 24px;
-    margin: 40px 0;
-    font-style: italic;
-    font-family: Bungee, sans-serif;
-}
 
-.Actors 
-{
-    color: #ff4d00;
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 40px;
-    font-family: 'BTTF', sans-serif;
-}
-
-
-.Other 
+.Others 
 {
     color: white;
-    text-align: center;
-    font-size: 22px;
-    margin-bottom: 40px;
+    text-align: right;
+    font-size: 25px;
+    margin-bottom: 69px;
+    transform: translateY(170%);
+    line-height: 0cm;
 }
 
-
+.Micheal
+{
+    transform: translateX(-10%);
+}
 footer 
 {
     text-align: center;
