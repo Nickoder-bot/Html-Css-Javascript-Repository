@@ -1,67 +1,156 @@
 
-@font-face {
-  font-family: 'BTTF';             /* custom name you’ll use in CSS */
-  src: url('/Assignments/Fonts/BTTF.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-h1
+body 
 {
-    font-size: 60px;
-    background: linear-gradient(90deg, #b82300, #ff4d00,#ff9a00);
-    -webbkit-background-clip: text;
-    background-clip: text;
-    font-family: 'BTTF', sans-serif;
-    text-align: center;
     margin: 0;
-    color: transparent
-   
+    font-family: 'Bungee', sans-serif;
+    color: white;
+    overflow-x: hidden;
+
+    
+    min-height: 100vh;
+
+    
+    background-color: black;
+    background-image: 
+        linear-gradient(to right, black 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, black 100%),
+        url("/Assignments/Images/Back_to_the_Future_Part_II_Textless_Poster.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative; 
 }
 
-h2
+
+
+@font-face 
 {
-    font-size: 45px;
-     background: linear-gradient(90deg, #b82300, #ff4d00, #ff9a00);
+    font-family: 'BTTF';
+    src: url('/Assignments/Fonts/BTTF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'SteelTongs';
+    src: url('/Assignments/Fonts/SteelTongs.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header-container 
+{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    position: absolute;
+    right: 10px;            
+    top: 30%;               
+    transform: translateY(-50%); 
+}
+
+
+.attentionDraw
+ {
+
+    text-align: center;   
+    color: rgb(4, 161, 189);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 20px; 
+    line-height: 20%;
+    font-family: 'Bungee', sans-serif;
+    text-shadow: 20px 20px 10px rgba(0,0,0,0.8);
+    transform: translateY(-50%) translateX(12%);
+    
+ }
+.attentionDraw .Tagline
+{
+    line-height:2cm;
+    font-size:  24px;
+    color: yellow;
+    transform:translateX(-15%) translateY(50%);
+ 
+}
+
+
+
+.mainTitle
+{
+    text-align: center;  
+    
+}
+
+.mainTitle h1 
+{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    line-height: 1;
+    background: linear-gradient(90deg, #b82300, #ff4d00, #ff9a00);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: rgb(255, 81, 0);
     font-family: 'BTTF', sans-serif;
-    text-align: center;
-    position: relative;
-   
-    margin: 0;
-
-   
+    text-shadow: 20px 20px 10px rgba(0,0,0,0.8);
 }
 
-body {
-  content: "";
-  display: block;
-  height: 1600px;
-
-  background:
-    linear-gradient(to right, black, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, black),
-    url("/Assignments/Images/Back_to_the_Future_Part_II_Textless_Poster.webp") center/cover no-repeat;
-}
-
-blockquote
+.top 
 {
-    font-size: 65px;
-    text-align: center;
-    color: #ff4d00;
-    font-family: 'BTTF', sans-serif;
+    transform: translateX(-24%);
+}
+
+.middle 
+{
+    transform: translateX(0);
+}
+
+.bottom 
+{
+    transform: translateX(30%);
 }
 
 
+main blockquote 
+{
+    text-align: center;
+    font-size: 24px;
+    margin: 40px 0;
+    font-style: italic;
+    font-family: Bungee, sans-serif;
+}
 
-
-
-
-.Actors
+.Actors 
 {
     color: #ff4d00;
-    text-align:center;
-    font-size:35px;
-    font-family: audiowide, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-family: 'BTTF', sans-serif;
+}
+
+
+.Other 
+{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+
+footer 
+{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 20px 10px;
+    background-color: rgba(0,0,0,0.8);
+}
+.spacer 
+{
+    height: 400px; /* adjust as needed */
 }
